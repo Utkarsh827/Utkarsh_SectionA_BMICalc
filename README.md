@@ -58,7 +58,7 @@ You might be using a Java Servlet, JSP, or Spring Boot to process user input on 
 This would require a client-server model with requests and responses.
 
 #LINK TO VEDIO EXPLANATION
-https://www.kapwing.com/w/98H0U2wMEA
+https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22rec-1_h0iHMKi2.mp4%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22signedurl_expire%22%3A%222028-05-06T12%3A24%3A51.976Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F66e9791e38784d51%2Frec-1_h0iHMKi2.mp4%3FExpires%3D1841228692%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3Dv7ZysBJpjCqpPp0upM9KZFnajwDbmf3S8uEQIEyyFVXr3KBEJHrpULAfX77Q-cLyfQCMp7iX7-J30spwm42NJ8uzWXpaoJOe09q8-PaZCGBUlkUdKSN-WJRHhl66AYJa5n~7i5x8waYzUAKGeXccEpQJbMv3fHgxMYmoMacrz9l16MBaX0WcHHCKJ4r0NruMXbNiS71LZBi4miluTOhqSYwu1WRgqnBlXSAd3mJc8Sa8Os~D-AmTQmFoyidJgLRnipKmVphbqppeDd4ifhWTwPFwDC6o~Z~x8vLYx~xAkBIGUfN1kttSPqqK65ZCvClswk-xR26vI6~F1uB-cD1GEQ__%22%7D
 
 # STEPS TO USE IT
 1. Open the login page
