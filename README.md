@@ -1,3 +1,12 @@
+#PROJECT TITLE -  BMI CALCULATOR
+#TEAM MEMBERS 
+1. Utkarsh - 2401730076
+2. Aritra Kundu - 2401730270
+3. Sanyam Dahiya - 2401730147
+4. Mukul - 2401730048
+   
+#PROJECT DESCRIPTION
+
 🧮 BMI Calculator – Web Application
 A BMI (Body Mass Index) calculator is a simple yet powerful health-related tool. It helps users determine whether their weight is healthy in proportion to their height. This web-based application allows users to input their weight and height, calculate their BMI instantly, and understand which BMI category they fall into.
 
@@ -48,3 +57,10 @@ You might be using a Java Servlet, JSP, or Spring Boot to process user input on 
 
 This would require a client-server model with requests and responses.
 
+#LINK TO VEDIO EXPLANATION
+https://www.kapwing.com/w/98H0U2wMEA
+
+# STEPS TO USE IT
+1. Open the login page
+2. Enter user id and password
+3. Enter your height and weight and you will get your BMI Result
