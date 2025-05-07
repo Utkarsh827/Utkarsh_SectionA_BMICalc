@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="LandingPage.css"> <!-- Link to your CSS file -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Removed duplicate title and second CSS link -->
+</head>
+<body>
+
+    <div class="background"></div>
+<!-- hfgbdvcs -->
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="logo">BMI CALCULATOR</div>
+        <ul class="nav-links">
+             <!-- Make sure links point to correct pages -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="BMI.html">Services</a></li> <!-- Link to BMI calculator page -->
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Login Box -->
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <!-- Add the id="loginForm" to the form -->
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <!-- Ensure input has id="username" -->
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <!-- Ensure input has id="password" -->
+                <input type="password" id="password" name="password" required>
+
+                <!-- Remove the invalid href attribute from submit -->
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 BMI Calculator. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to your JavaScript file just before closing </body> -->
+    <!-- Ensure the path 'Login.js' is correct -->
+    <script src="login.js"></script>
+</body>
+</html>

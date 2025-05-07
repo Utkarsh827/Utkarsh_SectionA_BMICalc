@@ -1,0 +1,145 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+   
+
+body, html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Image */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('pexels-pixabay-289586.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+/* Navbar Styles */
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 25px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f0f0f0;
+}
+
+/* Container and Login Box */
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;  /* 👈 Align items to the top */
+    min-height: 100vh;
+    padding-right: 100px;
+    padding-top: 90px;        /* 👈 Reduced top padding */
+    position: relative;
+    z-index: 1;
+}
+
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    color: #333;
+}
+
+.login-box label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    padding-top: 15px;
+    color: #555;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #4a54e1;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+    z-index: 10;
+}

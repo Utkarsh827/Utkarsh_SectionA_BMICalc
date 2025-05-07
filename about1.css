@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+
+}
+
+/* Headings */
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Paragraphs and List */
+h1:hover, h2:hover {
+    text-shadow: 1px 1px 6px #b0c4de;
+}
+
+p, li {
+    color: #555;
+    line-height: 1.6;
+}
+/* button */
+/* Button Link */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+em {
+    color: #2980b9;
+    font-style: normal;
+    font-weight: bold;
+}
+hr {
+    border: none;
+    border-top: 2px solid #3498db;
+    margin: 32px 0;
+}
+footer {
+    text-align: center;
+    color: #888;
+    margin-top: 40px;
+    font-size: 0.95em;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.03);
+}
+

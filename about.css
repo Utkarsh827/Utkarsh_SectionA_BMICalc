@@ -1,0 +1,96 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+/* Background */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('pexels-pixabay-289586.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #74ebd5;
+}
+
+/* About Container and Box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 80px; /* Space for navbar */
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px 50px;
+    border-radius: 15px;
+    max-width: 900px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px); /* Glassmorphism effect */
+}
+
+.about-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+.about-box p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
